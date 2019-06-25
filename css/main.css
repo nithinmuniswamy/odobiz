@@ -1,0 +1,153 @@
+body {
+  background: #ffffff;
+  font-family: "Century Gothic"; }
+
+.banner-img {
+  min-height: 80vh; }
+
+.about-sect {
+  background: #0a9189;
+  color: #ffffff;
+  padding: 50px 30px;
+  width: calc(60%);
+  position: relative;
+  top: -150px;
+  margin: 0 0 0 auto; }
+
+.uevents {
+  margin: -100px 0 100px 0; }
+  .uevents h1 {
+    text-align: center;
+    margin-bottom: 3rem; }
+  .uevents .sec_title {
+    color: #0a9189; }
+    .uevents .sec_title span {
+      color: #000000; }
+
+.event {
+  border: 2px solid #0a9189;
+  width: 250px;
+  height: 250px;
+  margin: auto; }
+  .event .eInfo {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    width: 100%;
+    height: 100%; }
+    .event .eInfo img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: fill;
+         object-fit: fill; }
+  .event .eDesc {
+    position: absolute;
+    background: #0a9189;
+    padding: 5px;
+    bottom: 20px;
+    color: #fff;
+    right: -20%;
+    left: 10%; }
+  .event:hover {
+    border-color: #000000; }
+    .event:hover .eDesc {
+      background: #000000; }
+
+.industry {
+  padding: 100px 0;
+  background: aliceblue; }
+  .industry .two-halfs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21em, 1fr));
+    -webkit-box-align: end;
+            align-items: flex-end;
+    grid-column-gap: 30px; }
+  .industry .half {
+    position: relative; }
+    .industry .half h1 {
+      background: #0a9189;
+      color: #ffffff;
+      padding: 5px;
+      position: absolute;
+      top: 10%;
+      right: -15%; }
+    .industry .half .grid-items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      text-align: center; }
+
+.testimonial {
+  padding: 100px 0; }
+  .testimonial h1 {
+    text-align: center; }
+  .testimonial .t_item {
+    width: 85%;
+    margin: auto; }
+    .testimonial .t_item .t_content {
+      padding: 20px;
+      position: relative; }
+    .testimonial .t_item .t_onwer {
+      text-align: center; }
+      .testimonial .t_item .t_onwer .name {
+        color: #0a9189;
+        font-weight: 600; }
+      .testimonial .t_item .t_onwer .designation {
+        font-weight: 300; }
+      .testimonial .t_item .t_onwer .company {
+        font-weight: 600; }
+
+.pEvents {
+  padding: 100px 0;
+  background: #54504f;
+  color: #ffffff; }
+  .pEvents h1 {
+    text-align: center; }
+
+.gallery {
+  padding: 100px 0;
+  color: #0a9189; }
+  .gallery h1 {
+    text-align: center; }
+
+.locations {
+  padding: 50px 0; }
+  .locations h1 {
+    text-align: center;
+    color: #0a9189; }
+    .locations h1 span {
+      color: #000000; }
+  .locations img {
+    padding: 30px 0; }
+  .locations ul {
+    list-style-type: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+    background: #0a9189;
+    grid-column-gap: 10px;
+    -webkit-box-align: center;
+            align-items: center;
+    color: #fff;
+    grid-auto-rows: 30px;
+    text-align: center; }
+    .locations ul li {
+      border-right: 2px solid #ffffff; }
+      .locations ul li:last-child {
+        border: none; }
+
+.contact {
+  background: #0a9189;
+  padding: 50px 0; }
+  .contact h1 {
+    text-align: center;
+    color: #fff; }
+  .contact label {
+    color: #ffffff; }
+
+footer {
+  background: #333;
+  padding: 20px 0;
+  color: #ffffff; }
+
+/* The Masonry Container */
